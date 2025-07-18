@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.config.SimpleDataSourceCfgTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-18T18:27:05" hostname="Users-MacBook-Pro.local" time="0.026">
+  <properties/>
+  <testcase name="testSimpleDataSource()" classname="org.example.config.SimpleDataSourceCfgTest" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.example.config.SimpleDataSourceCfgTest - testSimpleDataSource
+[Test worker] INFO org.example.config.SimpleDataSourceCfg - START
+]]></system-err>
+</testsuite>

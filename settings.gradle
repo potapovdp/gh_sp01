@@ -1,0 +1,5 @@
+rootProject.name = 'sp01'
+include 'PlainJDBC'
+include 'SpringJDBC'
+include 'Hibernate'
+

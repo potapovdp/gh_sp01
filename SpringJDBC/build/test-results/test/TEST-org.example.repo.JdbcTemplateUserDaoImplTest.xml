@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.repo.JdbcTemplateUserDaoImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-18T18:27:05" hostname="Users-MacBook-Pro.local" time="0.058">
+  <properties/>
+  <testcase name="findAll()" classname="org.example.repo.JdbcTemplateUserDaoImplTest" time="0.002"/>
+  <testcase name="findById()" classname="org.example.repo.JdbcTemplateUserDaoImplTest" time="0.044"/>
+  <testcase name="Should return a users with id = 1" classname="org.example.repo.JdbcTemplateUserDaoImplTest" time="0.012"/>
+  <system-out><![CDATA[user1
+user1
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[Test worker] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c28e5b6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7558c24b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3a296107, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f129467, org.springframework.test.context.transaction.TransactionalTestExecutionListener@646cd766, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57151b3a, org.springframework.test.context.event.EventPublishingTestExecutionListener@26457986]
+[Test worker] INFO org.example.config.BasicDataSourceCfg - START
+[Test worker] INFO org.example.config.SimpleDataSourceCfg - START
+[Test worker] INFO org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[Test worker] INFO org.example.repo.JdbcTemplateUserDaoImplTest - findByIdOld
+[Test worker] INFO org.example.repo.JdbcTemplateUserDaoImplTest - findByIdOld
+]]></system-err>
+</testsuite>
