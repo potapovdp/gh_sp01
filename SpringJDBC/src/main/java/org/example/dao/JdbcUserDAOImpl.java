@@ -64,8 +64,9 @@ public class JdbcUserDAOImpl implements UserDAO, InitializingBean {
     @Override
     public User findById(int id) {
         try(Connection connection = dataSource.getConnection();
-            PreparedStatement preparedStatement = connection.prepareStatement("select * from user where id = ?");
-            ResultSet resultSet = preparedStatement.executeQuery()) {
+            PreparedStatement preparedStatement = connection.prepareStatement("select * from user where id = ?")) {
+            preparedStatement.setInt(1, id);
+            ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
                 User user = new User();
                 user.setId(resultSet.getString("id"));
